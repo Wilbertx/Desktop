@@ -1,0 +1,16 @@
+using System;
+					
+public class Media
+{
+	public static void Main()
+	{	
+		Console.WriteLine("Média das Notas");
+		int nota = 9;
+		int notaDois = 8;
+		int notaTres = 7;
+			
+		int media = (nota + notaDois + notaTres) / 3;
+		
+		Console.WriteLine(media);
+	}
+}
